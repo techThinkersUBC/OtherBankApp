@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.AppHeader {
+  min-height: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  border-bottom: 0.1rem solid #001b69;
+}
+
+.AppHeaderLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.AppHeaderLogo {
+  margin-right: 1rem;
+  max-height: 2rem;
+  width: auto;
+}
+
+.AppHeaderTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #282c34;
+}
+
+.AppHeaderDescription {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #282c34;
+}
+
+.AppFooter {
+  min-height: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  border-top: 0.1rem solid #001b69;
+}
+
+.AppFooterDisclaimer {
+  text-align: center;
+  font-size: 0.5rem;
+  color: #282c34;
+}
+
+.App-link {
+  color: #09d3ac;
+}

@@ -1,0 +1,111 @@
+
+.Login {
+  min-height: calc(100vh - 6rem);
+
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginModal {
+  min-height: 20rem;
+  min-width: 6rem;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  border: 0.1rem solid #d6d8d6;
+}
+
+.LoginModalInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+.LoginModalTop {
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginModalTopTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.LoginModalImage {
+  margin-right: 1rem;
+  height: 2rem;
+}
+
+.LoginModalTitle {
+  color: #282c34;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.LoginModalList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.LoginModalListInput {
+  -webkit-appearance: none;
+
+  width: 100%;
+  margin-bottom: 2rem;
+
+  padding: 0.5rem;
+
+  border: 0.1rem solid #d6d8d6;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-top: 0.1rem solid #d6d8d6;
+  color: #282c34;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.LoginModalListOption:hover {
+  background-color: rgba(199, 247, 232, 0.5);
+}
+
+.LoginModalButton {
+  -webkit-appearance: none;
+  width: 10rem;
+  height: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #001b69;
+  cursor: pointer;
+}
+
+.LoginModalLink {
+  width: 50%;
+  height: 2rem;
+}
+
+.LoginModalButton:hover {
+  -webkit-appearance: none;
+  height: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #001b69;
+}

@@ -1,0 +1,149 @@
+
+.Home {
+  min-height: calc(100vh - 6rem);
+
+  padding: 2rem;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.HomeTop {
+  width: 100%;
+}
+
+.HomeTopAlert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+
+  width: 2rem;
+  height: auto;
+
+  color: #c9072a;
+}
+
+.HomeCard {
+  position: relative;
+
+  padding: 2rem;
+
+  background-color: white;
+
+  box-shadow: 0 3px 6px rgba(0, 27, 105, 0.16), 0 3px 6px rgba(0, 27, 105, 0.23);
+  border-radius: 0.2rem;
+}
+
+.HomeTopTitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+.HomeTopRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HomeTopMessage {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.HomeTopButton {
+  background-color: #001b69;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.2rem;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.HomeBottom {
+  margin-top: 2rem;
+}
+
+.HomeBottomTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.HomeBottomRow {
+  margin-top: 2rem;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.HomeLeft {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.HomeRight {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.HomeCardBalances {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.HomeCardBalancesTitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.HomeCardBalance {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.HomeCardBalanceButton {
+  font-weight: 500;
+  color: rgba(0, 27, 105, 1);
+  cursor: pointer;
+}
+
+.HomeNews {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.HomeNewsTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.HomeNewsList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.HomeNewsItem {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+
